@@ -1,4 +1,4 @@
-```markdown
+
 # Tempest FWI Predictor – Milestone 3: Model Deployment (Module 6)
 
 **A Machine Learning Web Application to Predict Fire Weather Index (FWI)**
@@ -11,7 +11,7 @@ The deployment transforms the machine learning model into an interactive tool su
 
 ## Project Structure
 
-```
+
 FWI Predictor/
 ├── app.py                  # Main Flask application
 ├── ridge.pkl               # Trained Ridge Regression model
@@ -20,7 +20,7 @@ FWI Predictor/
 │   ├── index.html          # Input form with all 10 features
 │   └── home.html           # Result page showing predicted FWI and danger level
 └── static/                 # (Optional for future CSS/JS files)
-```
+
 
 ## Features
 
@@ -96,12 +96,9 @@ FWI Predictor/
 - Public deployment via ngrok for live demonstration
 - End-to-end ML pipeline completed: Data → Model → Web App
 
-**Live Demo (ngrok URL generated at runtime):**  
-[Insert your ngrok link here]
 
 **Author:** Shaik Mohammad Irfan  
 **Date:** December 14, 2025
 
 ---
 **Tempest FWI Predictor is now fully deployed and ready for real-world use.**
-```
